@@ -1,0 +1,11 @@
+name: schedule-workflow
+on:
+  schedule:
+    - cron: '1 * * * *'
+
+jobs:
+  min-per-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: schedule-step
+        run: echo hello world
