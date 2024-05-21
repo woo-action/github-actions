@@ -1,7 +1,7 @@
 name: schedule-workflow
 on:
   schedule:
-    - cron: '1 * * * *'
+    - cron: '* * * * *'
 
 jobs:
   min-per-job:
