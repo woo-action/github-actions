@@ -2,8 +2,8 @@ name: path-filter
 on:
   push:
     paths:
-      - '.github/workflows/part1/*'
       - '!.github/workflows/part1/push.yaml'
+      - '.github/workflows/part1/*'
 
 jobs:
   branch-filter:
