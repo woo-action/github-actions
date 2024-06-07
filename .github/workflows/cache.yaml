@@ -10,7 +10,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
       - name: setup-node
-        uses: actions/setup-nodes@v3
+        uses: actions/setup-node@v3
         with:
           node-version: 18
       - name: Cache Node.js modules
