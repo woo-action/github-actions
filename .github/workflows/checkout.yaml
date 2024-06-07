@@ -1,4 +1,4 @@
-name: needs
+name: checkout
 on:
   workflow_dispatch:
 
