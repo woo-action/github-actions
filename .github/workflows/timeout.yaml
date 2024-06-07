@@ -5,7 +5,7 @@ on:
 jobs:
   tag-filter:
     runs-on: ubuntu-latest
-    timeout-minutes: 1
+    timeout-minutes: 2
     steps:
       - name: loop
         run: |
@@ -15,5 +15,6 @@ jobs:
             count=$((count+1))
             sleep 1
           done
+        timeout-minutes: 1
       - name: echo
         run: echo world
