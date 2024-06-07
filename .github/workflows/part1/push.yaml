@@ -10,4 +10,4 @@ jobs:
       - name: step2
         run: |
           echo hello world
-          echo github actions edit
+          echo github actions edit for path filter
