@@ -26,3 +26,12 @@ jobs:
         env:
           level: step
         run: echo "LEVEL ${{ env.level }}"
+
+  get-env-4:
+    runs-on: ubuntu-latest
+    steps:
+      - name: set env
+        run: |
+          echo "level=run" >> $GITHUB_ENV
+      - name: check env
+        run: echo "LEVEL ${{ env.level }}"
