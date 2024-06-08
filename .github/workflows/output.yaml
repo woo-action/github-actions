@@ -20,4 +20,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: get output
-        run: echo ${{ needs.craete-output.outputs.test }}
+        run: echo ${{ needs.create-output.outputs.test }}
